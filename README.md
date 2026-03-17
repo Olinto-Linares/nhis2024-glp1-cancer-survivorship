@@ -40,6 +40,7 @@ nhis2024-glp1-cancer-survivorship/
 │   ├── Block_08_etable3_model_c.R
 │   ├── Block_09_figure1.R
 │   └── Block_10_supplemental_race_table.R
+|   └── run_all.R
 └── output/
     └── README.md            # Description of pipeline outputs
 ```
@@ -101,7 +102,12 @@ source("R/Block_07_etable2_sensitivity.R")
 source("R/Block_08_etable3_model_c.R")
 source("R/Block_09_figure1.R")
 source("R/Block_10_supplemental_race_table.R")
+
+For convenience, the full pipeline can be executed in a single step:
+# Option 2: Run full pipeline (recommended)
+source("R/run_all.R")
 ```
+
 
 Alternatively, open the project in RStudio and run blocks interactively.
 
